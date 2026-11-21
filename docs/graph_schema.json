@@ -1,0 +1,16 @@
+{
+  "nodes": [
+    {"id": "n0", "position": {"x": 0, "y": 0}, "caption": "", "labels": ["User"],
+     "properties": {"userId": "Integer"}, "style": {}},
+    {"id": "n1", "position": {"x": 400, "y": 0}, "caption": "", "labels": ["Artist"],
+     "properties": {"artistId": "Integer", "name": "String", "url": "String"}, "style": {}}
+  ],
+  "relationships": [
+    {"id": "r0", "fromId": "n0", "toId": "n0", "type": "IS_FRIEND", "properties": {}, "style": {}},
+    {"id": "r1", "fromId": "n0", "toId": "n1", "type": "LISTEN_TO",
+     "properties": {"weight": "Integer (listening count)"}, "style": {}},
+    {"id": "r2", "fromId": "n0", "toId": "n1", "type": "TAGGED",
+     "properties": {"tagId": "Integer", "tag": "String", "day": "Integer", "month": "Integer", "year": "Integer"}, "style": {}}
+  ],
+  "style": {}
+}
