@@ -81,7 +81,7 @@ Le calcul porte sur le réseau d'amitié (1 892 utilisateurs, 12 717 amitiés).
 
 ### Interprétation
 
-- **Composantes.** Le réseau est presque entièrement connecté : 97,4 % des utilisateurs appartiennent à une seule composante. Les 19 autres sont de minuscules groupes (3 à 7 personnes) coupés du reste.
+- **Composantes.** Le réseau est presque entièrement connecté : 97,4 % des utilisateurs appartiennent à une seule composante. Les 19 autres sont de minuscules groupes (2 à 7 personnes) coupés du reste.
 - **Petit monde.** Deux utilisateurs de la plus grande composante sont séparés en moyenne par 3,5 amitiés seulement, alors que le réseau compte 1 843 personnes. C'est la signature d'un réseau "petit monde". Le diamètre de 9 reste modeste et vient de quelques chemins très longs en périphérie.
 - **Comparaison au hasard.** Un graphe aléatoire de même taille aurait une distance moyenne de 2,87. Notre valeur est un peu plus grande, ce qui est normal : dans un vrai réseau social, les amis se regroupent en cercles, ce qui allonge légèrement les chemins entre cercles éloignés.
 
