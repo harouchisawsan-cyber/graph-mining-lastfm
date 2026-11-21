@@ -1,0 +1,11 @@
+pandas
+numpy
+matplotlib
+seaborn
+networkx
+neo4j
+graphdatascience
+jupyter
+scikit-learn
+scipy
+python-dotenv
